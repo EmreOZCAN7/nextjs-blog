@@ -23,10 +23,10 @@ export default function Index() {
               <h2 className="text-2xl md:text-3xl">Follow me on</h2>
 
               <div className='flex align-items-center justify-content-center'>
-                <SocialIcon platform="github"/>
-                <SocialIcon platform="stackoverflow"/>
-                <SocialIcon platform="instagram"/>
-                <SocialIcon platform="linkedin"/>
+                <SocialIcon platform="github" link="https://github.com/EmreOZCAN7"/>
+                <SocialIcon platform="stackoverflow" link="https://stackoverflow.com/users/19338939/"/>
+                <SocialIcon platform="instagram" link="https://www.instagram.com/ynsmrozcan/"/>
+                <SocialIcon platform="linkedin" link="https://www.linkedin.com/in/yunusemreozcan/"/>
               </div>
 
             </a>
