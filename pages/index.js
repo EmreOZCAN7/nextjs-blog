@@ -3,7 +3,8 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
 import SEO from '../components/SEO';
-import githublogo from '../images/github.png'
+import React from 'react';
+import SocialIcon from '../components/SocialIcon';
 
 export default function Index() {
   return (
@@ -16,28 +17,18 @@ export default function Index() {
         </h1>
         <div className="w-full">
           <div
-            className="md:first:rounded-t-lg md:last:rounded-b-lg backdrop-blur-lg bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-50 transition border border-gray-800 dark:border-white border-opacity-10 dark:border-opacity-10 border-b-0 last:border-b hover:border-b hovered-sibdivng:border-t-0"
+            className="container md:first:rounded-t-lg md:last:rounded-b-lg backdrop-blur-lg bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-50 transition border border-gray-800 dark:border-white border-opacity-10 dark:border-opacity-10 border-b-0 last:border-b hover:border-b hovered-sibdivng:border-t-0"
           >
             <a className="py-6 lg:py-10 px-6 lg:px-16 block focus:outline-none focus:ring-4">
               <h2 className="text-2xl md:text-3xl">Follow me on</h2>
-              <div className="flex text-center">
-                <div onClick={() => null}>
-                  <img className="w-12 h-12" src={"https://raw.githubusercontent.com/EmreOZCAN7/nextjs-blog/main/images/github.png"} />
 
-                </div>
-                <div onClick={() => null}>
-                <img className="w-12 h-12" src={"https://raw.githubusercontent.com/EmreOZCAN7/nextjs-blog/main/images/stackoverflow.png"} />
-
-                </div>
-                <div onClick={() => null}>
-                <img className="w-12 h-12" src={"https://raw.githubusercontent.com/EmreOZCAN7/nextjs-blog/main/images/instagram.png"} />
-
-                </div>
-                <div onClick={() => null}>
-                <img className="w-12 h-12" src={"https://raw.githubusercontent.com/EmreOZCAN7/nextjs-blog/main/images/linkedin.png"} />
-
-                </div>
+              <div className='flex align-items-center justify-content-center'>
+                <SocialIcon platform="github"/>
+                <SocialIcon platform="stackoverflow"/>
+                <SocialIcon platform="instagram"/>
+                <SocialIcon platform="linkedin"/>
               </div>
+
             </a>
           </div>
         </div>
