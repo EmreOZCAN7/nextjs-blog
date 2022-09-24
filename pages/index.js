@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Layout, { GradientBackground } from '../components/Layout';
 import SEO from '../components/SEO';
+import githublogo from '../images/github.png'
 
 export default function Index() {
   return (
@@ -20,14 +21,17 @@ export default function Index() {
             <a className="py-6 lg:py-10 px-6 lg:px-16 block focus:outline-none focus:ring-4">
               <h2 className="text-2xl md:text-3xl">Follow me on</h2>
               <div className="flex text-center">
-                <div onClick={()=>null}>
-                <p className="mt-3 text-lg opacity-60">Github</p>
+                <div onClick={() => null}>
+                  <img src={githublogo} />
+                  <p className="mt-3 text-lg opacity-60">Github</p>
                 </div>
-                <div onClick={()=>null}>
-                <p className="mt-3 text-lg opacity-60">StackOverFlow</p>
+                <div onClick={() => null}>
+                <img src={require('../images/stackoverflow.png')} />
+                  <p className="mt-3 text-lg opacity-60">StackOverFlow</p>
                 </div>
-                <div onClick={()=>null}>
-                <p className="mt-3 text-lg opacity-60">Instagram</p>
+                <div onClick={() => null}>
+                <img src={require('../images/instagram.png')} />
+                  <p className="mt-3 text-lg opacity-60">Instagram</p>
                 </div>
               </div>
             </a>
