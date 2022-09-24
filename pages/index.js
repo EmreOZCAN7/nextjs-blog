@@ -20,7 +20,7 @@ export default function Index() {
             className="container md:first:rounded-t-lg md:last:rounded-b-lg backdrop-blur-lg bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-50 transition border border-gray-800 dark:border-white border-opacity-10 dark:border-opacity-10 border-b-0 last:border-b hover:border-b hovered-sibdivng:border-t-0"
           >
             <a className="py-6 lg:py-10 px-6 lg:px-16 block focus:outline-none focus:ring-4">
-              <h2 className="text-2xl md:text-3xl">Follow me on</h2>
+              <h2 className="text-1xl md:text-2xl">Follow me on</h2>
 
               <div className='flex align-items-center justify-content-center'>
                 <SocialIcon platform="github" link="https://github.com/EmreOZCAN7"/>
