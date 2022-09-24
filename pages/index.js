@@ -22,16 +22,20 @@ export default function Index() {
               <h2 className="text-2xl md:text-3xl">Follow me on</h2>
               <div className="flex text-center">
                 <div onClick={() => null}>
-                  <img src={githublogo} />
-                  <p className="mt-3 text-lg opacity-60">Github</p>
+                  <img className="w-12 h-12" src={"https://raw.githubusercontent.com/EmreOZCAN7/nextjs-blog/main/images/github.png"} />
+
                 </div>
                 <div onClick={() => null}>
-                <img src={require('../images/stackoverflow.png')} />
-                  <p className="mt-3 text-lg opacity-60">StackOverFlow</p>
+                <img className="w-12 h-12" src={"https://raw.githubusercontent.com/EmreOZCAN7/nextjs-blog/main/images/stackoverflow.png"} />
+
                 </div>
                 <div onClick={() => null}>
-                <img src={require('../images/instagram.png')} />
-                  <p className="mt-3 text-lg opacity-60">Instagram</p>
+                <img className="w-12 h-12" src={"https://raw.githubusercontent.com/EmreOZCAN7/nextjs-blog/main/images/instagram.png"} />
+
+                </div>
+                <div onClick={() => null}>
+                <img className="w-12 h-12" src={"https://raw.githubusercontent.com/EmreOZCAN7/nextjs-blog/main/images/linkedin.png"} />
+
                 </div>
               </div>
             </a>
